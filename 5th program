@@ -1,0 +1,7 @@
+a=int(input())
+b=int(input())
+c=a*185.00
+print("Regular Price: Rs.",185.00)
+print("Amount of new loaves: Rs.",a*185.00)
+print("Amount of day old loaves: Rs.",b*185.00)
+print("Total Amount: Rs.",(a*185.00)+(b*185.00))
