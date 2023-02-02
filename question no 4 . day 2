@@ -1,0 +1,17 @@
+A = [1, 5, 6, 9, 11]
+B = [3, 4, 7, 9, 10]
+print("The list 1 is : " + str(A))
+print("The list 2 is : " + str(B))
+size_1 = len(A)
+size_2 = len(B)
+res = []
+i, j = 0, 0
+while i < size_1 and j < size_2:
+	if A[i] < B[j]:
+		res.append(A[i])
+		i += 1
+	else:
+		res.append(B[j])
+		j += 1
+res = res + A[i:] + B[j:]
+print("The combined sorted list is : " + str(res))
