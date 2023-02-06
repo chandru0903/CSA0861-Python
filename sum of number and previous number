@@ -1,0 +1,4 @@
+N=int(input("Enter the number : "))         
+a=n-1                              
+sum=n+a                      
+print(sum)
