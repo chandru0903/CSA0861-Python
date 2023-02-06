@@ -1,0 +1,4 @@
+List=[]
+For i in range(4,31,2):
+List.append(i) 
+Print(list)
