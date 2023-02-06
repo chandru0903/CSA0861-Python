@@ -1,0 +1,6 @@
+From datetime import date as daten
+Def number (date1, date2) :
+Return(date2-date1).date
+date1=daten(2023,5,9) 
+date2=daten(2025,5,9)
+Print(number(date1,date2))
